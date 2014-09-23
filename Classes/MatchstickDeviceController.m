@@ -50,7 +50,7 @@ static NSString *kReceiverAppURL; //Receiver app url
 - (id)initWithFeatures:(MatchstickControllerFeatures)featureFlags {
     self = [super init];
     if (self) {
-        kReceiverAppURL = @"http://castapp.infthink.com/receiver/mediaplayer/index.html";
+        kReceiverAppURL = @"http://fling.matchstick.tv/receiver/mediaplayer/index.html";
         
         // Remember the features.
         _features = featureFlags;
